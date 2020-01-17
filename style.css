@@ -1,0 +1,181 @@
+body{
+font-family: 'Bree Serif', serif;
+}
+
+/* navbar */
+
+.navbar-dark{
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+.navbar a {
+color: #FFF
+}
+.navbar a:hover  {
+color: #c72c41
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+}
+.navbar-nav .nav-link,
+.navbar-brand {
+   color: #fff;
+}
+.navbarspan{
+  color: #c72c41 !important;
+}
+
+
+/* carousel */
+
+.carousel-inner{
+  width:100%;
+  max-height: 100vh !important;
+}
+.overlay{
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.carousel-indicators > li {
+  background-color: #edf7fa;
+  border-radius: 15px 50px;
+  padding: 5px
+}
+.ht-silder{
+  z-index: 3;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn-silder{
+  display: inline-block;
+  margin-left: 35px;
+  width: 150px
+}
+.headerh1{
+  color: #FFF;
+  font-size: 4rem;
+  font-family: 'Libre Baskerville', serif;
+}
+
+/* about */
+#About{
+  background-color: #f6f4e6;
+  padding: 35px 0 30px;
+}
+.about-m{
+  padding: 30px 15px;
+text-align: center;
+}
+.about-m h1{
+  padding-bottom: 20px;
+  display: inline-block;
+
+}
+.about-m i{padding-right: 20px;}
+
+
+/* eduocation */
+#eduocation{
+  background-color: #f6f4e6;
+  padding: 35px 0 30px;
+  text-align: center !important;
+
+}
+#eduocation h1{
+  display: inline-block;
+padding-bottom: 20px}
+#eduocation i{
+padding-right: 15px;}
+.col-eduo{
+  padding: 10px;
+}
+
+
+/* professional skills */
+#Skills{
+  padding: 35px 0 30px;
+  background-color: #2B2B2B;
+  color: #FFF
+  }
+
+.card{
+  background-color: #2B2B2B;
+  border:none;
+}
+.progress{
+  height: 30px;
+}
+.row h5{
+  text-align: center;
+  padding: 15px 0 10px;
+}
+.progress-bar{
+  background-color: #0f4c75;
+ }
+.container h3{
+  text-align: center;
+  padding-bottom: 20px
+}
+
+/* Portfolio */
+#Portfolio{
+  background-color: #f6f4e6;
+  padding: 35px 0 150px;
+}
+.sliderport{
+  width: 650px;
+  height: 350px;
+}
+#Portfolio li {
+  background-color: #0f4c75 ;
+  border-radius: 15px 50px;
+  padding: 5px
+}
+
+
+#contact {
+  background: #2B2B2B;
+  padding: 35px 0 30px;
+  color: #FFF
+}
+
+.info-font-r{
+  padding: ;: 10px 0 10px;
+  text-align: center;
+}
+.input100{
+  width: 75%;
+  border-radius: 7px;
+  background-color: #f6f4e6;
+  padding: 5px;
+  margin: 4px;
+}
+.submiet{
+
+}
+
+#footer{
+  background-color: #f6f4e6;
+  padding: 20px 0;
+  text-align: center;
+
+}
+#footer li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+#footer li i {  color:  #2B2B2B;
+
+}
+#footer li i:hover {
+  color:  #0f4c75;
+}
