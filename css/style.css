@@ -135,10 +135,15 @@ padding-right: 15px;}
   background-color: #f6f4e6;
   padding: 35px 0 150px;
 }
-.sliderport{
-  width: 650px;
-  height: 350px;
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 50%%;
+    height: 500px;
 }
+
+
 #Portfolio li {
   background-color: #0f4c75 ;
   border-radius: 15px 50px;
