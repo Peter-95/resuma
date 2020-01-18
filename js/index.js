@@ -7,3 +7,14 @@ $(window).scroll(function () {
         $('.navbar').css ('background' ,'transparent');
     }
 });
+
+
+
+$(window).width(function () {
+    if ($(window).width() <= 768 ){
+    $('#header').css('width' ,'100vh'); 
+    } else{
+        $('#header').css ('width' ,'100%');
+    }
+});
+
