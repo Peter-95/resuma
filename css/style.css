@@ -29,8 +29,12 @@ color: #c72c41
   color: #c72c41 !important;
 }
 
-.navbtn{
-  color: #FFF;
+.nav-btn{
+background-image: url(../img/menu-icon.png);
+background-repeat: no-repeat;
+background-size: cover;
+padding-bottom: 14px;
+background-color:none;
 }
 
 /* carousel */
