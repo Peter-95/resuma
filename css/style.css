@@ -1,9 +1,16 @@
+html{
+  margin: 0px;
+  padding: 0px;
+ max-width:100%;
+
+}
 body{
   font-family: 'Bree Serif', serif;
   margin: 0;
   padding: 0;
   }
   
+
   /* navbar */
   
   .navbar-dark{
@@ -35,6 +42,9 @@ body{
   background-size: cover;
   padding-bottom: 14px;
   background-color:none;
+  }
+  .active {
+    color:#c72c41 !important;
   }
   
   /* carousel */
@@ -112,7 +122,7 @@ body{
   
   /* professional skills */
   #Skills{
-    padding: 35px 0 30px;
+    padding: 45px 0 30px;
     background-color: #2B2B2B;
     color: #FFF
     }
@@ -142,7 +152,7 @@ body{
   /* Portfolio */
   #Portfolio{
     background-color: #f6f4e6;
-    padding: 35px 0 150px;
+    padding: 50px 0 150px;
   }
   .carousel-inner > .item > img {
       position: absolute;
@@ -222,7 +232,7 @@ body{
     font-size: 2.5rem;
   }
 #feedback-form{
-    display:none;
+  display:none;
   border-radius: 7px;
   background-color: #1a1919cb;
   margin: 4px;
@@ -261,6 +271,12 @@ color:#32ff6a
   }
 
 
+ .scrollup-btn{
+   position: fixed;
+   left: 28px;
+   bottom: 55px;
+   display: none;
+ }
   /* animation */
   .zoomInDown {
     -webkit-animation-name: zoomInDown;
